@@ -1,0 +1,29 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// tabela pizza
+model Pizza {
+  //Id da tabela do tipo String, tem o valor padrão de uuid ()Identificador Único Universal
+  id        String @id @default(uuid())
+  nome      String
+  tamanho   String
+  descricao String
+  valor     Float
+  imagem    String
+}
+
+model User {
+  id    String @id @default(uuid())
+  nome  String
+  email String @unique
+  senha String
+}
