@@ -1,0 +1,12 @@
+html{
+    /* Rolagem suave */
+    scroll-behavior: smooth
+  }
+
+.bg-pizzaBg{
+    background-image: url('../../assets/img/PizzaBg1.png');
+}
+
+h1 {
+  font-family: 'Satisfy', cursive;
+}
