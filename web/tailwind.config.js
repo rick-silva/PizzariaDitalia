@@ -8,6 +8,15 @@ export default {
       extend: { 
         backgroundImage: {
         'bg-pizzaBg': "url('./PizzaBg1.png')",
+      },
+        fontFamily: {
+        'font-logo': "'Satisfy', cursive",
+      }, 
+        colors: {
+          'text-main-color' : "#FF7200"
+      },
+        height:{
+          'h-46rem' : "46.875rem"
       }
     },
   },
