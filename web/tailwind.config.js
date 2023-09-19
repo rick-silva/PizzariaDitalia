@@ -14,10 +14,13 @@ export default {
       }, 
         colors: {
           'text-main-color' : "#FF7200"
+      },backgroundColor: {
+        'orange-color' : "#FF7200"
       },
         height:{
-          'h-46rem' : "46.875rem"
-      }
+          'h-46rem' : "46.875rem",
+          'h-33rem' : "33.125rem"
+      },
     },
   },
   plugins: [],

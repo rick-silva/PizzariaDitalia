@@ -15,7 +15,7 @@ function App() {
       <Homebg />
       <Menu />
       <Sobre />
-      <Cardapio/>
+      <Cardapio />
     </>
   )
 }

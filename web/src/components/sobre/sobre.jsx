@@ -9,7 +9,7 @@ const Sobre = () => {
                 <img className='w-96 h-h-46rem my-5'  src={pizzaImg} alt="" />
             </div>
             <div className='w-3/4 flex justify-center flex-col '>
-                <div className=' mt-9 text-center'>
+                <div className='mt-9 text-center'>
                     <h2 className='text-8xl font-font-logo text-text-main-color'>Pizzaria D'italia</h2>
                 </div>
                 <div className='w-2/4 m-auto teste text-justify '>
