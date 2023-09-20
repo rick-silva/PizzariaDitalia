@@ -9,7 +9,7 @@ const Menu = () =>{
                     <a href="#pizzariaDitalia"><img  className='' src={logo} alt="" /></a>
                     <a href="#cardapio"><li className='mx-8'>Cardápio</li></a>
                     <li className='mx-8'>FAQ</li>
-                    <li className='mx-8'>Aplicativo</li>
+                    <a href="#aplicativo"><li className='mx-8'>Aplicativo</li></a>
                     <li className='mx-8'>Dashboard</li>
                 </ul>
             </nav>

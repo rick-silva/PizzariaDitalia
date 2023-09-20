@@ -1,5 +1,6 @@
 
 import pizzaImg from '../../assets/img/PizzaMarguerita.png'
+import addIcon from '../../assets/icons/AddIcon.png'
 
 
 const Card = () => {
@@ -17,6 +18,10 @@ const Card = () => {
                 <h3 className='text-2xl font-bold'>Pizza Média</h3>
                 <p className='mt-5 px-4'>Recheio: tomate sem cascas, mussarela de búfala de Campânia, alho, azeite de oliva e basílico (folhas aromáticas).</p>
                 <p className='text-5xl mt-5 font-font-logo'>R$ 50,00</p>
+            </div>
+
+            <div className='w-full h-auto bg-black relative'>
+                <img className='w-16 absolute right-5 cursor-pointer' src={addIcon} alt="" />
             </div>
 
         </div>

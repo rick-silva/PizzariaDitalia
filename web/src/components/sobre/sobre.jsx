@@ -4,7 +4,7 @@ import pizzaImg from '../../assets/img/PizzaApresentacao.png'
 
 const Sobre = () => {
     return (
-        <div id='pizzariaDitalia' className="w-full h-screen flex ">
+        <div id='pizzariaDitalia' className="w-full h-screen flex border-b-2 border-black">
             <div className="w-1/4  ">
                 <img className='w-96 h-h-46rem my-5'  src={pizzaImg} alt="" />
             </div>

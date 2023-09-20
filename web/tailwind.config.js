@@ -15,11 +15,16 @@ export default {
         colors: {
           'text-main-color' : "#FF7200"
       },backgroundColor: {
-        'orange-color' : "#FF7200"
+        'orange-color' : "#FF7200",
+        'gray-color' : "#c4c4c4"
       },
         height:{
           'h-46rem' : "46.875rem",
-          'h-33rem' : "33.125rem"
+          'h-40rem' : "35rem",
+          'h-33rem' : "33.125rem",
+      },
+        width:{
+          '2px' : "2px",
       },
     },
   },
